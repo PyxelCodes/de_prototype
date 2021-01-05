@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "105"
+	"mapversion" "108"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1662"
-	"mapversion" "105"
+	"mapversion" "108"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1328,7 +1328,7 @@ world
 		side
 		{
 			"id" "4015"
-			"plane" "(472 1728 -120) (480 1728 -120) (480 1744 -120)"
+			"plane" "(456 1728 -128) (464 1728 -128) (464 1744 -128)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1339,7 +1339,7 @@ world
 		side
 		{
 			"id" "4016"
-			"plane" "(472 1744 8) (472 1728 8) (472 1728 -120)"
+			"plane" "(456 1744 -128) (472 1744 8) (472 1728 8)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1350,7 +1350,7 @@ world
 		side
 		{
 			"id" "4017"
-			"plane" "(480 1744 -120) (480 1728 -120) (480 1728 8)"
+			"plane" "(464 1728 -128) (480 1728 8) (480 1744 8)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1361,7 +1361,7 @@ world
 		side
 		{
 			"id" "4018"
-			"plane" "(480 1744 8) (472 1744 8) (472 1744 -120)"
+			"plane" "(464 1744 -128) (480 1744 8) (472 1744 8)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1372,7 +1372,7 @@ world
 		side
 		{
 			"id" "4019"
-			"plane" "(480 1728 -120) (472 1728 -120) (472 1728 8)"
+			"plane" "(456 1728 -128) (472 1728 8) (480 1728 8)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -31665,7 +31665,7 @@ entity
 		"id" "1318"
 		side
 		{
-			"id" "3317"
+			"id" "4049"
 			"plane" "(48 1736 32) (416 1736 32) (416 1304 32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -31676,7 +31676,7 @@ entity
 		}
 		side
 		{
-			"id" "3316"
+			"id" "4048"
 			"plane" "(48 1304 -128) (416 1304 -128) (416 1736 -128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -31687,7 +31687,7 @@ entity
 		}
 		side
 		{
-			"id" "3315"
+			"id" "4047"
 			"plane" "(48 1736 32) (48 1304 32) (48 1304 -128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -31698,7 +31698,7 @@ entity
 		}
 		side
 		{
-			"id" "3314"
+			"id" "4046"
 			"plane" "(416 1736 -128) (416 1304 -128) (416 1304 32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -31709,7 +31709,7 @@ entity
 		}
 		side
 		{
-			"id" "3313"
+			"id" "4045"
 			"plane" "(416 1736 32) (48 1736 32) (48 1736 -128)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -31720,7 +31720,7 @@ entity
 		}
 		side
 		{
-			"id" "3312"
+			"id" "4044"
 			"plane" "(416 1304 -128) (48 1304 -128) (48 1304 32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -31929,8 +31929,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2140.12 1663.13 130.818]"
-		"look" "[-2139.34 1662.52 130.629]"
+		"position" "[365.904 557.193 340.615]"
+		"look" "[365.409 557.866 340.044]"
 	}
 }
 cordons
