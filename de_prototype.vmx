@@ -2,7 +2,11 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
+<<<<<<< Updated upstream
 	"mapversion" "175"
+=======
+	"mapversion" "174"
+>>>>>>> Stashed changes
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +30,11 @@ viewsettings
 world
 {
 	"id" "1662"
+<<<<<<< Updated upstream
 	"mapversion" "175"
+=======
+	"mapversion" "174"
+>>>>>>> Stashed changes
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -31864,6 +31872,43 @@ world
 }
 entity
 {
+	"id" "2746"
+	"classname" "tar_config"
+	"aoSize" "1000"
+	"background" "grid.png"
+	"colorScheme" "0"
+	"customCol0" "39 56 79"
+	"customCol1" "77 74 72"
+	"customCol2" "178 113 65"
+	"ddsMode" "0"
+	"enableAO" "1"
+	"enableOutline" "0"
+	"enableShadows" "0"
+	"ObjectiveUseStripes" "0"
+	"outlineWidth" "2"
+	"outputMode" "0"
+	"ssaam" "2"
+	"vgroup_cover" "tar_cover"
+	"vgroup_layout" "tar_layout"
+	"vgroup_negative" "tar_mask"
+	"vgroup_overlap" "tar_overlap"
+	"zColAO" "0 0 0 255"
+	"zColBuyzone" "46 211 57 255"
+	"zColCover" "179 179 179 255"
+	"zColCover2" "85 85 85 210"
+	"zColObjective" "196 75 44 255"
+	"zColOutline" "204 204 204 255"
+	"origin" "-1852 968 -8"
+	editor
+	{
+		"color" "127 224 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "2382"
 	"classname" "prop_static"
 	"angles" "18.8392 0 0"
@@ -33284,8 +33329,13 @@ cameras
 	"activecamera" "0"
 	camera
 	{
+<<<<<<< Updated upstream
 		"position" "[-1789.81 684.635 434.486]"
 		"look" "[-1789.52 684.341 433.563]"
+=======
+		"position" "[-1710.1 863.71 126.715]"
+		"look" "[-1710.41 864.559 126.258]"
+>>>>>>> Stashed changes
 	}
 }
 cordons
