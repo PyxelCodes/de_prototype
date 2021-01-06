@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "185"
+	"mapversion" "190"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,6 +20,12 @@ visgroups
 		"visgroupid" "17"
 		"color" "135 180 133"
 	}
+	visgroup
+	{
+		"name" "tar_cover"
+		"visgroupid" "19"
+		"color" "231 116 245"
+	}
 }
 viewsettings
 {
@@ -32,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1662"
-	"mapversion" "185"
+	"mapversion" "190"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1431,6 +1437,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1507,6 +1514,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1583,6 +1591,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1659,6 +1668,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1735,6 +1745,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1811,6 +1822,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1887,6 +1899,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1963,6 +1976,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2039,6 +2053,7 @@ world
 		editor
 		{
 			"color" "0 165 214"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2115,6 +2130,7 @@ world
 		editor
 		{
 			"color" "0 165 154"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2191,6 +2207,7 @@ world
 		editor
 		{
 			"color" "0 219 184"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2267,6 +2284,7 @@ world
 		editor
 		{
 			"color" "0 167 140"
+			"visgroupid" "19"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -34009,7 +34027,7 @@ entity
 	"angles" "0 0 0"
 	"pitch" "0"
 	"SunSpreadAngle" "10"
-	"origin" "-1520 1520 96"
+	"origin" "-1520 -152 416"
 	editor
 	{
 		"color" "220 30 220"
@@ -35418,8 +35436,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-771.037 212.941 153.707]"
-		"look" "[-770.908 213.585 152.935]"
+		"position" "[-1231.37 1625.07 -49.5854]"
+		"look" "[-1230.38 1625.08 -49.3472]"
 	}
 }
 cordons
