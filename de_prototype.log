@@ -6814,3 +6814,305 @@ Total triangle count: 8138
 Writing c:\users\zakia\desktop\de_prototype\de_prototype.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\zakia\desktop\de_prototype\de_prototype.bsp', but we don't own that location. Allowing...
 7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\zakia\desktop\de_prototype\de_prototype.vmf
+Map revision 191
+Patching WVT material: maps/de_prototype/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\zakia\desktop\de_prototype\de_prototype.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (165051 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 156 texinfos to 106
+Reduced 27 texdatas to 26 (720 bytes to 670)
+Writing c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\zakia\desktop\de_prototype\de_prototype.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+12 threads
+reading c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+reading c:\users\zakia\desktop\de_prototype\de_prototype.prt
+ 803 portalclusters
+2375 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 31972 visible clusters (0.00%)
+Total clusters visible: 469609
+Average clusters visible: 584
+Building PAS...
+Average clusters audible: 803
+visdatasize:163920  compressed from 167024
+writing c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\zakia\desktop\de_prototype\de_prototype.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+2835 faces
+351815 square feet [50661368.00 square inches]
+6 Displacements
+1737 Square Feet [250240.00 Square Inches]
+2835 patches before subdivision
+20971 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1339204, max 780
+transfer lists:  10.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20959, 19151, 16137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4682, 3888, 3009)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                435/8192         5220/98304    ( 5.3%) 
+brushsides            2782/81920       22256/655360   ( 3.4%) 
+planes                1136/65536       22720/1310720  ( 1.7%) 
+vertexes              4251/65536       51012/786432   ( 6.5%) 
+nodes                 1562/65536       49984/2097152  ( 2.4%) 
+texinfos               106/12288        7632/884736   ( 0.9%) 
+texdata                 26/4096          832/131072   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        5690/0            5690/0        ( 0.0%) 
+faces                 2835/65536      158760/3670016  ( 4.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1607/65536       89992/3670016  ( 2.5%) 
+facebrushes            427/0             854/0        ( 0.0%) 
+facebrushlists        2835/0           11340/0        ( 0.0%) 
+leaves                1572/65536       50304/2097152  ( 2.4%) 
+leaffaces             3128/65536        6256/131072   ( 4.8%) 
+leafbrushes            922/65536        1844/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20221/512000      80884/2048000  ( 3.9%) 
+edges                11469/256000      45876/1024000  ( 4.5%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            211/32768        2110/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4389/65536        8778/131072   ( 6.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]     2363212/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      163920/16777216 ( 1.0%) 
+entdata               [variable]        8407/393216   ( 2.1%) 
+LDR ambient table     1572/65536        6288/262144   ( 2.4%) 
+HDR ambient table     1572/65536        6288/262144   ( 2.4%) 
+LDR leaf ambient      6175/65536      172900/1835008  ( 9.4%) 
+HDR leaf ambient      1572/65536       44016/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1392     ( 0.1%) 
+pakfile               [variable]      308897/0        ( 0.0%) 
+physics               [variable]      165051/4194304  ( 3.9%) 
+physics terrain       [variable]        1190/1048576  ( 0.1%) 
+
+Level flags = 7d
+
+Total triangle count: 8138
+Writing c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\zakia\desktop\de_prototype\de_prototype.bsp', but we don't own that location. Allowing...
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\zakia\desktop\de_prototype\de_prototype.vmf
+Map revision 192
+Patching WVT material: maps/de_prototype/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\zakia\desktop\de_prototype\de_prototype.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (165051 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 156 texinfos to 106
+Reduced 27 texdatas to 26 (720 bytes to 670)
+Writing c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\zakia\desktop\de_prototype\de_prototype.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\zakia\desktop\de_prototype\de_prototype.vmf
+Map revision 192
+Patching WVT material: maps/de_prototype/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\zakia\desktop\de_prototype\de_prototype.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (165051 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 156 texinfos to 106
+Reduced 27 texdatas to 26 (720 bytes to 670)
+Writing c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\zakia\desktop\de_prototype\de_prototype.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+reading c:\users\zakia\desktop\de_prototype\de_prototype.prt
+ 803 portalclusters
+2375 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1771 visible clusters (0.00%)
+Total clusters visible: 194442
+Average clusters visible: 242
+Building PAS...
+Average clusters audible: 740
+visdatasize:144756  compressed from 167024
+writing c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\zakia\desktop\de_prototype\de_prototype.bsp', but we don't own that location. Allowing...
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+2835 faces
+351815 square feet [50661368.00 square inches]
+6 Displacements
+1737 Square Feet [250240.00 Square Inches]
+2835 patches before subdivision
+20971 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1340499, max 780
+transfer lists:  10.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(22134, 20245, 17165)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5030, 4168, 3238)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1376, 1018, 734)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(402, 262, 179)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(125, 71, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(40, 19, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(13, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                435/8192         5220/98304    ( 5.3%) 
+brushsides            2782/81920       22256/655360   ( 3.4%) 
+planes                1136/65536       22720/1310720  ( 1.7%) 
+vertexes              4251/65536       51012/786432   ( 6.5%) 
+nodes                 1562/65536       49984/2097152  ( 2.4%) 
+texinfos               106/12288        7632/884736   ( 0.9%) 
+texdata                 26/4096          832/131072   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples        5690/0            5690/0        ( 0.0%) 
+faces                 2835/65536      158760/3670016  ( 4.3%) 
+hdr faces             2835/65536      158760/3670016  ( 4.3%) 
+origfaces             1607/65536       89992/3670016  ( 2.5%) 
+facebrushes            427/0             854/0        ( 0.0%) 
+facebrushlists        2835/0           11340/0        ( 0.0%) 
+leaves                1572/65536       50304/2097152  ( 2.4%) 
+leaffaces             3128/65536        6256/131072   ( 4.8%) 
+leafbrushes            922/65536        1844/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            20221/512000      80884/2048000  ( 3.9%) 
+edges                11469/256000      45876/1024000  ( 4.5%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          8/8192          800/819200   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            211/32768        2110/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4389/65536        8778/131072   ( 6.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2363212/0        ( 0.0%) 
+visdata               [variable]      144756/16777216 ( 0.9%) 
+entdata               [variable]        8407/393216   ( 2.1%) 
+LDR ambient table     1572/65536        6288/262144   ( 2.4%) 
+HDR ambient table     1572/65536        6288/262144   ( 2.4%) 
+LDR leaf ambient      1572/65536       44016/1835008  ( 2.4%) 
+HDR leaf ambient      6186/65536      173208/1835008  ( 9.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1392     ( 0.1%) 
+pakfile               [variable]      308977/0        ( 0.0%) 
+physics               [variable]      165051/4194304  ( 3.9%) 
+physics terrain       [variable]        1190/1048576  ( 0.1%) 
+
+Level flags = 7e
+
+Total triangle count: 8138
+Writing c:\users\zakia\desktop\de_prototype\de_prototype.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\zakia\desktop\de_prototype\de_prototype.bsp', but we don't own that location. Allowing...
+10 seconds elapsed
