@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8456"
-	"mapversion" "195"
+	"mapversion" "196"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1662"
-	"mapversion" "195"
+	"mapversion" "196"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33610,6 +33610,28 @@ world
 }
 entity
 {
+	"id" "3702"
+	"classname" "light_environment"
+	"_ambient" "255 255 255 20"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "-13 26 0"
+	"pitch" "-13"
+	"SunSpreadAngle" "0"
+	"origin" "-1288 -362.191 400"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "3304"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -34015,25 +34037,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -16268]"
-	}
-}
-entity
-{
-	"id" "3604"
-	"classname" "light_directional"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"angles" "0 0 0"
-	"pitch" "0"
-	"SunSpreadAngle" "10"
-	"origin" "-1520 -152 416"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -15768]"
 	}
 }
 entity
@@ -35436,8 +35439,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1657.61 1304.24 91.9722]"
-		"look" "[-1657.61 1303.22 92.0291]"
+		"position" "[-1488.64 -24.1745 414.551]"
+		"look" "[-1487.66 -24.4539 414.608]"
 	}
 }
 cordons
